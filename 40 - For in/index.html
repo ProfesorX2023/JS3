@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciclo For in</title>
+</head>
+<body>
+    <script>
+        function Perro(raza,edad,color){
+            this.patas = 4;
+            this.raza = raza;
+            this.edad = edad;
+            this.color = color
+            this.ladrar = function (){
+                console.log("Guau")
+            };
+        };
+
+        let bonny = new Perro("Labrador",4,"Blanco");
+        let canelo = new Perro("Pit-bull",4,"Marrón");
+        let caly = new Perro("Chow Chow",12,"Negro");
+
+        for(let caracteristicas in canelo){
+            console.log(caracteristicas + ": " + canelo[caracteristicas]);
+        }
+    </script>
+</body>
+</html>

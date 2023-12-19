@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar Objetos</title>
+</head>
+<body>
+    <script>
+        let perro = {
+            nombre: "Bonny",
+            raza: "labrador",
+            edad: 4,
+            ladrar(){
+                alert("Guau");
+            }
+        };
+
+        // perro.edad = 10;
+        // perro.edad = 12;
+
+        function cumplirAnios(){
+            perro.edad = perro.edad + 1;
+        }
+
+        perro["colorOjos"] = "marrón";
+
+    </script>
+</body>
+</html>

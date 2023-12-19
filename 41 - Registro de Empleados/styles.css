@@ -1,0 +1,25 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 2rem;
+    background-color: #edc6e8;
+}
+
+h2{
+    color: brown;
+}
+
+button {
+    height: 30px;
+    width: 158px;
+    background-color: darkblue;
+    color: white;
+}
+
+input{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: orangered;
+}
